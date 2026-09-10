@@ -1,0 +1,30 @@
+2. REQUISITOS
+  2.1 Requisitos funcionais
+    Descrição
+      RF01
+        O sistema deve permitir o cadastro de uma ação de vacinação, contendo código, escola, data prevista, público-alvo, responsável, quantidade prevista de participantes e situação inicial ("planejada").
+      RF02
+        O sistema deve listar todas as ações cadastradas, exibindo suas informações de forma organizada e legível no terminal.
+      RF03
+        O sistema deve permitir a pesquisa de ações por código, escola ou tema, retornando os registros correspondentes.
+      RF04
+        O sistema deve permitir a atualização da situação de uma ação (planejada, realizada ou cancelada) e, quando marcada como realizada, registrar a quantidade efetiva de participantes vacinados.
+      RF05
+        O sistema deve gerar um resumo geral contendo a quantidade de ações planejadas, realizadas e canceladas, o total de participantes vacinados e o percentual de participação em relação ao número previsto.
+      RF06
+        O sistema deve validar as entradas do usuário, impedindo códigos duplicados, quantidades negativas, campos obrigatórios vazios e opções inexistentes no menu.
+
+
+2.2 Requisitos não funcionais
+  Descrição
+    RNF01
+      O sistema deve ser executado em ambiente de terminal, sem uso de interface gráfica, banco de dados ou bibliotecas externas avançadas.
+    RNF02
+      O sistema deve armazenar os dados em memória (vetores/structs) durante a execução, sem persistência obrigatória em arquivo.
+    RNF03
+      O sistema não deve armazenar nome, diagnóstico, prontuário ou qualquer dado clínico individual de estudantes — apenas informações fictícias e coletivas sobre as ações.
+    RNF04
+      O código deve ser modularizado em funções com responsabilidades claras, evitando concentrar a lógica na função main.
+    RNF05
+      O sistema deve apresentar mensagens claras de confirmação e de erro, garantindo usabilidade mesmo para operadores sem conhecimento técnico.
+
