@@ -1,0 +1,37 @@
+3.2 Pseudocódigo menu principal
+INÍCIO Main
+ 
+    LISTA DE AÇÕES <- VAZIA
+    encerrado <- FALSO
+ 
+    ENQUANTO encerrado == FALSO FAÇA
+ 
+        EXIBIR "===== PSE em Ação - Vacinação ====="
+        EXIBIR "1 - Cadastrar ação de vacinação"
+        EXIBIR "2 - Listar ações"
+        EXIBIR "3 - Pesquisar ação (código, escola ou tema)"
+        EXIBIR "4 - Atualizar situação da ação"
+        EXIBIR "5 - Gerar resumo geral"
+        EXIBIR "6 - Encerrar"
+        EXIBIR "Escolha uma opção: "
+        LER opcao
+ 
+        SE opcao < 1 OU opcao > 6 ENTÃO
+            EXIBIR "Erro: opção inválida."
+        SENÃO
+            ESCOLHA opcao FAÇA
+                CASO 1: CHAMAR CadastrarAcao; PARAR
+                CASO 2: CHAMAR ListarAcoes; PARAR
+                CASO 3: CHAMAR PesquisarAcao; PARAR
+                CASO 4: CHAMAR AtualizarSituacao; PARAR
+                CASO 5: CHAMAR GerarResumo; PARAR
+                CASO 6:
+                    EXIBIR "Encerrando o sistema..."
+                    encerrado <- VERDADEIRO
+                    PARAR
+            FIM ESCOLHA
+        FIM SE
+ 
+    FIM ENQUANTO
+ 
+FIM Main
