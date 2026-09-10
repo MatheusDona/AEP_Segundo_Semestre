@@ -1,0 +1,48 @@
+Pseudocódigo cadastro de ação de vacinação
+INÍCIO CadastrarAcao
+ 
+    EXIBIR "Código da ação: "; LER codigo
+    EXIBIR "Escola: "; LER escola
+    EXIBIR "Tema da ação: "; LER tema
+    EXIBIR "Data prevista: "; LER data
+    EXIBIR "Público-alvo: "; LER publicoAlvo
+    EXIBIR "Responsável: "; LER responsavel
+    EXIBIR "Quantidade prevista de participantes: "; LER quantidadePrevista
+ 
+    // Validação 1: campos obrigatórios vazios
+    SE (codigo VAZIO) OU (escola VAZIA) OU (tema VAZIO) OU
+       (data VAZIA) OU (publicoAlvo VAZIO) OU (responsavel VAZIO) ENTÃO
+        EXIBIR "Erro: todos os campos são obrigatórios."
+        RETORNAR PARA CadastrarAcao
+    FIM SE
+ 
+    // Validação 2: código já cadastrado
+    PARA CADA acao EXISTENTE NA LISTA DE AÇÕES FAÇA
+        SE acao.codigo == codigo ENTÃO
+            EXIBIR "Erro: já existe uma ação cadastrada com este código."
+            RETORNAR PARA CadastrarAcao
+        FIM SE
+    FIM PARA
+ 
+    // Validação 3: quantidade inválida
+    SE quantidadePrevista <= 0 ENTÃO
+        EXIBIR "Erro: a quantidade prevista deve ser maior que zero."
+        RETORNAR PARA CadastrarAcao
+    FIM SE
+ 
+    // Todas as validações passaram: salvar
+    NOVA acao
+    acao.codigo <- codigo
+    acao.escola <- escola
+    acao.tema <- tema
+    acao.data <- data
+    acao.publicoAlvo <- publicoAlvo
+    acao.responsavel <- responsavel
+    acao.quantidadePrevista <- quantidadePrevista
+    acao.quantidadeEfetiva <- 0
+    acao.situacao <- "planejada"
+ 
+    ADICIONAR acao À LISTA DE AÇÕES
+    EXIBIR "Ação cadastrada com sucesso."
+ 
+FIM CadastrarAcao
