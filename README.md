@@ -65,8 +65,8 @@ O sistema **não coleta nem armazena dados clínicos individuais** de estudantes
 
 ## Sobre o documento escrito
 
-O documento da Etapa 1 (`docs/AEP_Etapa1_PSE_Vacinacao_formatado.docx`) segue as normas ABNT: fonte Times New Roman 12, espaçamento entrelinhas 1,5, recuo de primeira linha, margens de 3 cm (esquerda/superior) e 2 cm (direita/inferior), numeração de página e referências em ordem alfabética.
+O documento da Etapa 1 (`docs/AEP_Etapa1_PSE_Vacinacao.pdf`) segue as normas ABNT: fonte Times New Roman 12, espaçamento entrelinhas 1,5, recuo de primeira linha, margens de 3 cm (esquerda/superior) e 2 cm (direita/inferior), numeração de página e referências em ordem alfabética.
 
 ## Referências
 
-As referências bibliográficas completas utilizadas na fundamentação do projeto (BRASIL, 2007; Portaria Interministerial nº 1.055/2017; BVS/MS; DATASUS/PNI; Instituto Butantan; Ministério da Educação; Agência Gov; SOUSA, ESPERIDIÃO e MEDINA, 2017) estão disponíveis no documento completo em `docs/AEP_Etapa1_PSE_Vacinacao_formatado.docx`.
+As referências bibliográficas completas utilizadas na fundamentação do projeto (BRASIL, 2007; Portaria Interministerial nº 1.055/2017; BVS/MS; DATASUS/PNI; Instituto Butantan; Ministério da Educação; Agência Gov; SOUSA, ESPERIDIÃO e MEDINA, 2017) estão disponíveis no documento completo em `docs/AEP_Etapa1_PSE_Vacinacao.pdf`.
