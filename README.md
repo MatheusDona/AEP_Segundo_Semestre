@@ -7,9 +7,9 @@ Curso: ESOFT2S
 
 ## Integrantes
 
-- Matheus Guelles Doná
-- João Artur Prado Martins
-- Nicholas Tadei Esteves
+- Matheus Guelles Doná - 26002542-2
+- João Artur Prado Martins - 26002543-2
+- Nicholas Tadei Esteves - 25000427-2
 
 ## Descrição do projeto
 
