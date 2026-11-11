@@ -82,7 +82,7 @@ O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os 
 ├── README.md
 ├── docs/
 │   ├── AEP_Etapa1_PSE_Vacinacao.pdf              # Documento escrito da Etapa 1 (formatação ABNT)
-│   ├── AEP_Etapa2_PSE_Vacinacao.docx             # Documento final da Etapa 2 (formatação ABNT)
+│   ├── AEP_Etapa2_PSE_Vacinacao.docx             # Documento final escrito da Etapa 2 (formatação ABNT)
 │   ├── requisitos/                                # Requisitos funcionais e não funcionais
 │   ├── diagramas/                                 # Fluxogramas (menu principal e cadastro de ação) e diagrama de casos de uso
 │   └── pseudocodigo/                              # Pseudocódigos do menu principal e do cadastro
