@@ -93,9 +93,9 @@ O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os 
 
 ## Etapas e planejamento de sprints
 
-**Etapa 1 — Documento escrito (semanas 1 a 6):** contextualização, problema de pesquisa, objetivos, justificativa, requisitos, fluxogramas, pseudocódigos, planejamento de sprints e criação/organização do repositório GitHub. *(Status: concluída)*
+**Etapa 1 — Documento escrito (semanas 1 a 6):** contextualização, problema de pesquisa, objetivos, justificativa, requisitos, fluxogramas, pseudocódigos, planejamento de sprints e criação/organização do repositório GitHub.
 
-**Etapa 2 — Implementação e apresentação (semanas 7 a 15):** implementação em C de todas as funcionalidades (cadastro, listagem, pesquisa, atualização e resumo), testes, diagrama de casos de uso, manual do usuário e apresentação em vídeo. *(Status: concluída)*
+**Etapa 2 — Implementação e apresentação (semanas 7 a 15):** implementação em C de todas as funcionalidades (cadastro, listagem, pesquisa, atualização e resumo), testes, diagrama de casos de uso, manual do usuário e apresentação em vídeo.
 
 ## Limitações conhecidas
 
@@ -112,7 +112,7 @@ O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os 
 
 O documento da Etapa 1 (`docs/AEP_Etapa1_PSE_Vacinacao.pdf`) segue as normas ABNT: fonte Times New Roman 12, espaçamento entrelinhas 1,5, recuo de primeira linha, margens de 3 cm (esquerda/superior) e 2 cm (direita/inferior), numeração de página e referências em ordem alfabética.
 
-O documento final da Etapa 2 (`docs/AEP_Etapa2_PSE_Vacinacao.docx`) reúne os requisitos, os fluxogramas e pseudocódigos revisados, o diagrama e as descrições de casos de uso, o registro de testes, o manual do usuário e as considerações finais.
+O documento final da Etapa 2 (`docs/AEP_Etapa2_PSE_Vacinacao.docx`) reúne os requisitos, os fluxogramas e pseudocódigos revisados, o diagrama e as descrições de casos de uso, o registro de testes, o manual do usuário e as considerações finais, e segue as normas ABNT: fonte Times New Roman 12, espaçamento entrelinhas 1,5, recuo de primeira linha, margens de 3 cm (esquerda/superior) e 2 cm (direita/inferior), numeração de página e referências em ordem alfabética.
 
 ## Referências
 
