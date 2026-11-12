@@ -112,7 +112,7 @@ O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os 
 
 O documento da Etapa 1 (`docs/AEP_Etapa1_PSE_Vacinacao.pdf`) segue as normas ABNT: fonte Times New Roman 12, espaçamento entrelinhas 1,5, recuo de primeira linha, margens de 3 cm (esquerda/superior) e 2 cm (direita/inferior), numeração de página e referências em ordem alfabética.
 
-O documento final da Etapa 2 (`docs/AEP_Etapa2_PSE_Vacinacao.docx`) reúne os requisitos, os fluxogramas e pseudocódigos revisados, o diagrama e as descrições de casos de uso, o registro de testes, o manual do usuário e as considerações finais, e segue as normas ABNT: fonte Times New Roman 12, espaçamento entrelinhas 1,5, recuo de primeira linha, margens de 3 cm (esquerda/superior) e 2 cm (direita/inferior), numeração de página e referências em ordem alfabética.
+O documento final da Etapa 2 (`docs/AEP_Etapa2_PSE_Vacinacao.pdf`) reúne os requisitos, os fluxogramas e pseudocódigos revisados, o diagrama e as descrições de casos de uso, o registro de testes, o manual do usuário e as considerações finais, e segue as normas ABNT: fonte Times New Roman 12, espaçamento entrelinhas 1,5, recuo de primeira linha, margens de 3 cm (esquerda/superior) e 2 cm (direita/inferior), numeração de página e referências em ordem alfabética.
 
 ## Referências
 
