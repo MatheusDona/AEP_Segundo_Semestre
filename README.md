@@ -106,7 +106,7 @@ O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os 
 
 ## Vídeo de apresentação
 
-[inserir link do vídeo]
+https://youtu.be/dAPP_J2MO2E
 
 ## Sobre o documento escrito
 
